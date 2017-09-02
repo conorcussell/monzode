@@ -1,0 +1,15 @@
+{
+  "name": "monzode",
+  "version": "0.1.0",
+  "description": "a monzo api client for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": ["monzo", "node", "javascript"],
+  "author": "Conor Cussell https://conorcussell.co.uk",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
