@@ -8,12 +8,12 @@ const Monzo = require('./lib/monzo');
 const monzo = new Monzo(credentials);
 
 /**
- * get transactions for a specific account
+ * get your accounts
  */
 
 monzo
-  .transactions('ACCOUNT_ID')
+  .accounts()
   .then(res => {
     console.log(res);
   })
-  .catch(err => console.log(err, 'accounts'));
+  .catch(err => console.log(err));

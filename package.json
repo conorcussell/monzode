@@ -1,8 +1,8 @@
 {
   "name": "monzode",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a monzo api client for node",
-  "main": "index.js",
+  "main": "lib/monzo.js",
   "scripts": {
     "test": "test"
   },
